@@ -21,6 +21,9 @@ import {SistemaAutenticacao} from "./SistemaAutenticacao.js";
 // contaSalario.sacar(10);
 // console.log(contaSalario);
 
+//exemplo de polimorfismo, o js esta tratando objetos diferentes de maneira semelhante
+//o sistema de autenticacao recebe funcionario ou cliente para autenticacao
+
 const diretor = new Diretor("Bruna", 10000, 123456789);
 diretor.cadastrarSenha("123456");
 const gerente = new Gerente("Matheus", 9000, 321456789);
